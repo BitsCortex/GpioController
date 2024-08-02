@@ -29,8 +29,6 @@ func main() {
 		fmt.Println("Error:", err)
 	}
 
-	fmt.Println("Pin:", c.Pin)
-
 	a := app.New()
 
 	mainWindow := ui.NewMainWindowGui(&c, a)
